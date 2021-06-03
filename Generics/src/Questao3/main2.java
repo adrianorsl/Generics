@@ -15,7 +15,7 @@ public class main2 {
 		
 		p.mostrar();
 		
-
+		
 	}
 
 }

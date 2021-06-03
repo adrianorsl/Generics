@@ -1,6 +1,7 @@
 package Questao3;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Pedido {
@@ -24,7 +25,7 @@ public class Pedido {
 	
 	public void mostrar() {
 		for (int i = 0; i < produto.size(); i++) {
-			produto.toString();
+			System.out.println(produto.get(i));
 		}
 	}
 
@@ -45,7 +46,6 @@ public class Pedido {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Pedido [numero=");
 		builder.append(numero);
-		
 		builder.append("]");
 		return builder.toString();
 	}
